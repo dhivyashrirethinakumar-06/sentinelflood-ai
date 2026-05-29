@@ -1,0 +1,36 @@
+# Node.js dependencies & build outputs
+node_modules/
+dist/
+.vite/
+
+# Python caches & compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables (CRITICAL SECURITY)
+.env
+backend/.env
+
+# ML model artifacts (optional)
+*.pkl
+*.joblib
+
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log

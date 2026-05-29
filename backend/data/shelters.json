@@ -1,0 +1,46 @@
+[
+    {
+        "id": "s1",
+        "name": "Community Relief Center A",
+        "latitude": 13.0418,
+        "longitude": 80.2341,
+        "address": "12, Gandhi Mandapam Rd, Kotturpuram, Chennai",
+        "capacity": 350,
+        "occupied": 120,
+        "amenities": [
+            "Medical Aid",
+            "Purified Water",
+            "Hot Food",
+            "Tamil + English Translators"
+        ]
+    },
+    {
+        "id": "s2",
+        "name": "Velachery Emergency Shelter Hub",
+        "latitude": 12.9815,
+        "longitude": 80.2185,
+        "address": "45, Velachery Bypass Rd, Chennai",
+        "capacity": 500,
+        "occupied": 420,
+        "amenities": [
+            "Heavy Flooding Boats",
+            "Emergency Medical ICU",
+            "Food Packages",
+            "Backup Generators"
+        ]
+    },
+    {
+        "id": "s3",
+        "name": "Saidapet Secondary Relief Camp",
+        "latitude": 13.0201,
+        "longitude": 80.2223,
+        "address": "7, Anna Salai, Saidapet, Chennai",
+        "capacity": 250,
+        "occupied": 85,
+        "amenities": [
+            "First Aid",
+            "Sleeping Mats",
+            "Infant Milk Powder"
+        ]
+    }
+]

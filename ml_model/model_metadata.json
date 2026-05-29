@@ -1,0 +1,53 @@
+{
+    "best_model": "Random_Forest",
+    "features": [
+        "District_Encoded",
+        "Rainfall",
+        "Water_Level",
+        "Humidity",
+        "Temperature",
+        "Wind_Speed",
+        "Storm_Index"
+    ],
+    "rf_metrics": {
+        "Accuracy": 0.8912,
+        "Precision": 0.7449664429530202,
+        "Recall": 0.13903966597077244,
+        "F1_Score": 0.2343420126671358,
+        "Confusion_Matrix": [
+            [
+                17491,
+                114
+            ],
+            [
+                2062,
+                333
+            ]
+        ]
+    },
+    "xgb_metrics": {
+        "Accuracy": 0.89105,
+        "Precision": 0.7231404958677686,
+        "Recall": 0.14613778705636743,
+        "F1_Score": 0.24313997915943036,
+        "Confusion_Matrix": [
+            [
+                17471,
+                134
+            ],
+            [
+                2045,
+                350
+            ]
+        ]
+    },
+    "feature_importances": {
+        "District_Encoded": 0.03414801865873769,
+        "Rainfall": 0.2174749321516613,
+        "Water_Level": 0.16958128818824025,
+        "Humidity": 0.12080280407940673,
+        "Temperature": 0.08000609989038146,
+        "Wind_Speed": 0.0992723618033848,
+        "Storm_Index": 0.2787144952281878
+    }
+}
