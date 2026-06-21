@@ -34,3 +34,8 @@ Desktop.ini
 
 # Logs
 *.log
+
+backend/data/predictions.json
+backend/data/weather_logs.json
+backend/data/alerts.json
+backend/data/users.json
