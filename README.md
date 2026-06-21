@@ -122,6 +122,8 @@ This system features **Zero-Configuration Fallbacks** (graceful local JSON stora
 
 ## 🔑 DEFAULT TESTING CREDENTIALS
 
+> ⚠️ **Demo credentials only.** These are intended for local grading/testing of this project and must not be used in any public or production deployment.
+
 To expedite grading and assessment reviews, registration and login fields are **pre-populated by default** with a fully functional administrator setup:
 
 - **Email Channel**: `admin@sentinel.com`
