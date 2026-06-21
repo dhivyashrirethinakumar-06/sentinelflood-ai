@@ -3,7 +3,24 @@
 An intelligent, AI-powered web application that collects real-time weather analytics, processes physical environmental metrics using Machine Learning ensembles (Random Forest & XGBoost), renders predictive threat gauges and danger zones on interactive Leaflet maps, and distributes multi-channel emergency alert broadcasts in both Tamil and English.
 
 ---
+## 📸 Screenshots
 
+**Dashboard**
+![Dashboard](docs/screenshots/dashboard.png)
+
+**AI Flood Prediction Workbench**
+![ML Predictor](docs/screenshots/ml-predictor.png)
+
+**Tactical Disaster Map**
+![Disaster Map](docs/screenshots/disaster-map.png)
+
+**Emergency Alert Broadcasts**
+![Active Alerts](docs/screenshots/active-alerts.png)
+
+**Bilingual Support (Tamil)**
+![Dashboard - Tamil](docs/screenshots/dashboard-tamil.png)
+
+---
 ## 📐 SYSTEM ARCHITECTURE
 
 Below is the software topology mapping telemetry acquisition, predictive classifiers, and alert propagation channels.
