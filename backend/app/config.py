@@ -14,7 +14,9 @@ class Config:
     DB_NAME = os.getenv("DB_NAME", "flood_alert_system")
     
     # JWT Auth Config
-    JWT_SECRET = os.getenv("JWT_SECRET", "super_secret_jwt_key_change_me_in_production_123456!")
+    WT_SECRET = os.getenv("JWT_SECRET")
+        if not JWT_SECRET:
+           raise RuntimeError("JWT_SECRET environment variable is not set")
     JWT_ALGORITHM = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7  # 7 Days
     
@@ -27,6 +29,8 @@ class Config:
     TWILIO_PHONE_NUMBER = os.getenv("TWILIO_PHONE_NUMBER", "")
     
     # Admin Secret Key (for making an account admin)
-    ADMIN_SECRET_KEY = os.getenv("ADMIN_SECRET_KEY", "admin_super_secret_token_2026")
+    ADMIN_SECRET_KEY = os.getenv("ADMIN_SECRET_KEY")
+        if not ADMIN_SECRET_KEY:
+            raise RuntimeError("ADMIN_SECRET_KEY environment variable is not set")
 
 settings = Config()
