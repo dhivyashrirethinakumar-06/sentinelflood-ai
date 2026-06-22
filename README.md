@@ -1,5 +1,8 @@
 # Real-Time Flood Risk Prediction and Emergency Alert System Using Machine Learning and Weather Analytics
 
+🔗 **Live Demo:** [https://sentinelflood-ai.vercel.app](https://sentinelflood-ai.vercel.app)
+*(Backend runs on a free-tier server — first request after inactivity may take ~50 seconds to wake up.)*
+
 An intelligent, AI-powered web application that collects real-time weather analytics, processes physical environmental metrics using Machine Learning ensembles (Random Forest & XGBoost), renders predictive threat gauges and danger zones on interactive Leaflet maps, and distributes multi-channel emergency alert broadcasts in both Tamil and English.
 
 ---
