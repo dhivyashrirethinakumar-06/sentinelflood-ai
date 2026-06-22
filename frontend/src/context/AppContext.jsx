@@ -14,7 +14,7 @@ export const AppProvider = ({ children }) => {
   const [historicalData, setHistoricalData] = useState([]);
   const [alerts, setAlerts] = useState([]);
   
-  const API_BASE = "http://127.0.0.1:8000/api/v1";
+  const API_BASE = "https://sentinelflood-backend.onrender.com/api/v1";
 
   // Persistent storage sync
   useEffect(() => {
